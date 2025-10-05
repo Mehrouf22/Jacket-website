@@ -1,0 +1,135 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: mat;
+    src: url(./Neotriad-BF64f472e65d8f5.otf);
+}
+
+#main{
+    width: 100%;
+    height:    100%;
+    background-color: crimson;
+    
+}
+
+
+
+nav{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+#hi h1{
+    font-family: mat;
+    font-size: 10vh;
+    color: black;
+}
+
+
+#heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#heading h1{
+    position: absolute;
+   font-size: 45vh;
+   position: sticky;
+ font-family: mat;
+ font-weight: 100;
+ color: beige;
+
+}
+
+#btmleft{
+  color: white;
+    width: 300px;
+    text-align: justify;
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btmleft h2{
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: black;
+}
+
+#btmleft p{
+   margin-bottom: 10px;
+   font-weight: 100;
+}
+
+#btmleft h4{
+    margin-bottom: 10px;
+    color: black;
+}
+
+#end{
+  position: absolute;
+  bottom: 0%;
+    padding: 30px;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+#end a{
+    color: white;
+text-decoration: underline;
+
+}
+
+
+
+#one{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    left: 70%;
+    bottom: 30%;
+   border-radius: 10px;
+   transform: rotate(10deg);
+}
+
+#two{
+    width: 300px;
+    height: 350px;
+    position: absolute;
+    left: 35%;
+    bottom: 5%;
+   border-radius: 10px;
+  transform: rotate(10deg);
+}
+
+#three{
+    width: 300px;
+    height: 400px;
+       position: absolute;
+    left: 53%;
+    bottom: 10%;
+   border-radius: 10px;
+   transform: rotate(-10deg);
+}
